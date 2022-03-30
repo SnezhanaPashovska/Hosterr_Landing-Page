@@ -1,0 +1,9 @@
+@mixin header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+};
+
+@mixin navbar {
+  border: 1px solid black;
+}
