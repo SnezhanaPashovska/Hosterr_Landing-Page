@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="css/text" href="css/normalize.css">
-  <link rel="stylesheet" type="css/text" href="sass/styles.css">
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <title>Hosterr</title>
 </head>
 
@@ -16,7 +20,22 @@
       <a class="logo">
         <img src="Assets/Logo.svg">
       </a>
-      <button>Hosterr is hiring!</button>
+      <button class="hiring">Hosterr is hiring!</button>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Plans</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Find Domain</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Why Hosterr</a>
+        </li>
+      </ul>
+      <div class="sign_in_hosterr">
+        <p class="sign_in">Sign in</p>
+        <button class="sign_in_btn">Join Waitlist</button>
+      </div>
       <div class="hamburger_menu">
         <span class="bar"> </span>
         <span class="bar"> </span>
@@ -26,48 +45,50 @@
   </header>
   <main class="main_content">
     <div class="images">
-      <img src="Assets/Blue Shape.svg" class="blue">
-      <img src="Assets/Pink Shape.svg" class="pink">
-      <img src="Assets/Purple Shape.svg" class="purple">
-      <img src="Assets/Hero Image (Model).png" class="face">
+      <img src="Assets/Blue_Shape.svg" class="blue" alt="Blue shape">
+      <img src="Assets/Pink_Shape.svg" class="pink" alt="Pink shape">
+      <img src="Assets/Purple_Shape.svg" class="purple" alt="Purple shape">
+      <img src="Assets/Hero_Image_(Model).png" class="face" alt="Model image">
     </div>
     <div class="headline">
-      <h1 class="main_title">Host your website in less than 5 minutes.</h1>
-      <p class="paragraph">
+      <h1 class="headline__title">Host your website in less than 5 minutes.</h1>
+      <p class="headline__paragraph">
         With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing
         packages available online.
       </p>
     </div>
     <div class="the_email">
       <input type="email" id="email" name="email" placeholder="Enter e-mail address">
-      <button class="join">
-        Join Waitlist!
+      <button class="the_email__join">
+        Join Waitlist
       </button>
       <div class="no_spam">
-        <img src="Assets/Checkmark.svg" class="checkmark">
+        <img src="Assets/Checkmark.svg" class="no_spam__checkmark">
         <p class="no_spam_text">
           No spam, ever. Unsubscribe anytime.
         </p>
       </div>
     </div>
+  </main>
+  <footer class="footer">
     <div class="social_media">
       <a href="">Facebook</a>
       <a href="">Instagram</a>
       <a href="">Twitter</a>
     </div>
-  </main>
-  <footer class="footer">
     <div class="help">
-      <img src="Assets/Help Avatar.svg" class="help_pic">
-      <p class="question">
-        Have a question?
-      </p>
-      <p class="talk">
-        Talk to a specialist
-      </p>
+      <img src="Assets/Help_Avatar.svg" class="help__pic" alt="Help avatar">
+        <div class="help__text">
+        <p class="help__text__question">
+          Have any questions?
+        </p>
+        <p class="help__text__talk">
+          Talk to a specialist
+        </p>
+      </div>
     </div>
   </footer>
-
+  <script src="js/styles.js"></script>
 </body>
 
 </html>

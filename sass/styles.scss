@@ -1,9 +1,137 @@
-@import "tools/_mixins.scss";
+@import "./tools/mixins";
 
 .header{
   @include header
-};
+}
 
 .navbar{
   @include navbar
-};
+}
+
+.hamburger_menu{
+  @include hamburger
+}
+
+.bar{
+  @include bars
+}
+
+.nav-menu{
+  @include nav-menu
+}
+
+.nav-link{
+  @include nav-link
+}
+
+.logo{
+  @include logo
+}
+.logo.img{
+  object-fit: cover;
+  width: 100%;
+}
+.hiring{
+  @include hiring
+}
+
+.images{
+  @include images
+}
+
+.blue{
+  @include blue
+}
+
+.pink{
+  @include pink
+}
+
+.purple{
+  @include purple
+}
+
+.face{
+  @include model
+}
+.main_content{
+  @include main_content
+}
+
+.headline{
+  @include headline
+}
+
+.the_email{
+  @include the_email
+}
+
+#email{
+  @include email
+}
+
+.no_spam{
+  @include no_spam
+}
+
+.footer{
+  @include footer
+}
+
+.social_media{
+  @include social_media
+}
+
+.help{
+  @include help
+}
+
+@media only screen and (max-width: 768px) {
+
+  .sign_in_hosterr{
+    display: none;
+  }
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 4.2rem;
+      flex-direction: column;
+      background-color: #f9f4e8;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      font-family: Playfair+Display, sans-serif;
+      transition: 0.5s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+      z-index: 1;
+  }
+  .nav-menu a:hover{
+    color: #49c4eb;
+  }
+  .nav-menu.active {
+    left: 0;
+}
+
+.nav-item {
+    margin: 2.5rem 0;
+}
+
+.hamburger_menu {
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger_menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger_menu.active .bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger_menu.active .bar:nth-child(3) {
+  transform: translateY(-5px) rotate(-45deg);
+}
+
+}

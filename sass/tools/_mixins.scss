@@ -1,9 +1,237 @@
-@mixin header {
+@mixin header{
   display: flex;
   flex-direction: row;
   width: 100%;
-};
+  height: 70px;
+}
 
 @mixin navbar {
-  border: 1px solid black;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  padding-top: 12px;
 }
+
+@mixin hamburger {
+  display: none;
+}
+
+@mixin bars {
+  display: block;
+  width: 23px;
+  height: 3px;
+  margin: 5px 1px auto auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: #101010;
+}
+
+@mixin nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@mixin nav-link{
+  color: #101010;  
+}
+
+@mixin logo {
+  height: 50px;
+  object-fit: cover;
+  margin-left: -26px;
+}
+
+@mixin hiring {
+  border-radius: 15px 15px 15px 15px;
+  background: linear-gradient(to right, #eaaf52, #ea5473);
+  height: 25px;
+  color: white;
+  width: 35%;
+  margin-left: -20px;
+  border: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: Playfair+Display, sans-serif;
+
+  &:hover{
+    filter: brightness(120%);
+  }
+}
+
+@mixin images {
+  width: 100%;
+  margin: 50px auto  0px auto;
+}
+
+@mixin blue {
+  width: 66%;
+  margin: 10px 10px 10px 50px;
+  transform: rotate(-55deg);
+  position: absolute;
+  background: transparent;
+}
+
+@mixin pink {
+  width: 66%;
+  margin: 10px 10px 10px 50px;
+  transform: rotate(-35deg);
+  position: absolute;
+  background-color: transparent;
+}
+
+@mixin purple {
+  width: 66%;
+  margin: 10px 10px 10px 50px;
+  transform: rotate(-20deg);
+  position: absolute;
+  background-color: transparent;
+}
+
+@mixin model {
+  width: 66%;
+  margin: 10px 10px 10px 50px;
+  position: absolute;
+  background-color: transparent;
+}
+
+@mixin headline {
+  margin: -400px auto 0px auto;
+  
+  &__title{
+    font-family: Playfair Display, serif;
+    height: 130px;
+    text-align: start;
+    width: 80%;
+    padding-left: 10px;
+  }
+
+  &__paragraph{
+    font-family: Leto, sans-serif;
+    padding: 20px 10px 0px 10px;
+    font-size: 14px;
+    color: #6b6a69;
+  }
+}
+
+@mixin main_content {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin  the_email {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+  margin-top: -690px;
+
+  &__join{
+    height: 45px;
+    margin-top: 10px;
+    background-color: #4977ea;
+    border-radius: 5px 5px 5px 5px;
+    border-color: transparent;
+    font-family: Leto, sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  &__join:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+  }
+}
+
+@mixin email {
+  height: 45px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  border-color: transparent;
+  font-family: Leto, sans-serif;
+  padding-left: 5px;
+}
+
+@mixin no_spam {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  width: 90%;
+  font-size: 14px;
+  font-family: Leto, sans-serif;
+  color: #6b6a69;
+
+  &__checkmark{
+    font-size: 13px;
+    height: 15px;
+    margin-left: -11px;
+  }
+}
+
+@mixin  footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-evenly;
+}
+
+@mixin social_media {
+  display: inline-flex;
+  justify-content: space-between;
+  justify-items: start;
+  width: 60%;
+  padding-left: 10px;
+  font-family: Leto, sans-serif;
+  color: #6b6a69;
+  font-size: 13px;
+
+  & a:visited{
+    color: #6b6a69;
+  }
+
+  & a:hover{
+    color: black;
+  }
+}
+
+@mixin help {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  margin-top: 10px;
+
+  &__pic{
+    height: 40px;
+  }
+
+  &__text{
+    font-size: 14px;
+
+    &__question{
+      font-family: Playfair Display, serif;
+    }
+
+    &__talk{
+      font-family: Leto, sans-serif;
+      font-weight: bold;
+    }
+  }
+}
+
+
+
+
+
+
+
+

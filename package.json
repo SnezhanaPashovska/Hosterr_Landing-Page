@@ -1,0 +1,20 @@
+{
+  "name": "hosterr_landing-page",
+  "version": "1.0.0",
+  "description": "hosterr landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/styles.scss:css/styles.css",
+    "prefix": "postcss ./css/styles.css --use autoprefixer -d ./css/prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnezhanaPashovska/Hosterr_Landing-Page.git"
+  },
+  "author": "Snezhana Pashovska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnezhanaPashovska/Hosterr_Landing-Page/issues"
+  },
+  "homepage": "https://github.com/SnezhanaPashovska/Hosterr_Landing-Page#readme"
+}
