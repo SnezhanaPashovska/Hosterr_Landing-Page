@@ -28,3 +28,5 @@ If you want more real-time communication, you can visit our community on [Slack]
 
 https://fonts.google.com/specimen/Lato
 https://fonts.google.com/specimen/Playfair+Display
+
+website: https://snezhanapashovska.github.io/Hosterr_Landing-Page/
