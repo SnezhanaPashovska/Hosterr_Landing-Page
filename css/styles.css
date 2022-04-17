@@ -57,7 +57,7 @@
     filter: brightness(120%); }
 
 .images {
-  width: 100%;
+  width: 90%;
   margin: 50px auto  0px auto; }
 
 .blue {
@@ -186,6 +186,129 @@
       font-family: Leto, sans-serif;
       font-weight: bold; }
 
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+  .header {
+    width: 98%; }
+
+  .images {
+    width: 80%;
+    margin: 50px auto  100px auto; }
+
+  .blue {
+    width: 62%;
+    margin: 10px 10px 10px 50px;
+    transform: rotate(-55deg);
+    position: absolute;
+    background: transparent; }
+
+  .pink {
+    width: 62%;
+    margin: 10px 10px 10px 50px;
+    transform: rotate(-35deg);
+    position: absolute;
+    background-color: transparent; }
+
+  .purple {
+    width: 62%;
+    margin: 10px 10px 10px 50px;
+    transform: rotate(-20deg);
+    position: absolute;
+    background-color: transparent; }
+
+  .face {
+    width: 62%;
+    margin: 10px 10px 10px 50px;
+    position: absolute;
+    background-color: transparent; }
+
+  .headline {
+    margin: -350px auto 0px auto;
+    width: 95%; }
+    .headline__paragraph {
+      font-family: Leto, sans-serif;
+      padding: 0px 10px 65px 10px;
+      font-size: 14px;
+      color: #6b6a69; }
+
+  .social_media {
+    display: inline-flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 60%;
+    margin-left: 35px; }
+
+  .main_content {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98%; }
+
+  .the_email {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 15px;
+    margin-top: -690px;
+    width: 95%; }
+    .the_email__join {
+      height: 45px;
+      margin-top: 10px;
+      background-color: #4977ea;
+      border-radius: 5px 5px 5px 5px;
+      border-color: transparent;
+      font-family: Leto, sans-serif;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 1px; }
+    .the_email__join:hover {
+      filter: brightness(120%);
+      cursor: pointer; }
+
+  .footer {
+    width: 97%; } }
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    justify-content: space-around; }
+
+  .hiring {
+    width: 20%;
+    margin-left: -100px; }
+
+  .images {
+    width: 80%;
+    margin: 80px auto  100px auto; }
+
+  .main_content {
+    height: 1100px; }
+
+  .headline {
+    margin: -280px auto 0px auto;
+    width: 90%; }
+    .headline__title {
+      font-family: Playfair Display, serif;
+      height: 100px;
+      text-align: start;
+      width: 70%;
+      padding-left: 60px; }
+    .headline__paragraph {
+      font-family: Leto, sans-serif;
+      padding: 30px 10px 0px 60px;
+      font-size: 14px;
+      color: #6b6a69;
+      width: 80%; }
+
+  .the_email {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+    margin-top: -800px;
+    width: 70%;
+    margin-left: 80px; }
+
+  .footer {
+    height: 150px;
+    margin: 30px 0px 0px 80px; } }
 @media only screen and (max-width: 768px) {
   .sign_in_hosterr {
     display: none; }

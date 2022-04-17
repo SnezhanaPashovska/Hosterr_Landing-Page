@@ -64,7 +64,7 @@
 }
 
 @mixin images {
-  width: 100%;
+  width: 90%;
   margin: 50px auto  0px auto;
 }
 
@@ -226,6 +226,162 @@
       font-weight: bold;
     }
   }
+}
+
+@mixin images-large-mob {
+  width: 80%;
+  margin: 50px auto  100px auto;
+}
+
+@mixin headline-large-mob{
+
+  margin: -350px auto 0px auto;
+  width: 95%;
+
+  &__paragraph{
+    font-family: Leto, sans-serif;
+    padding: 0px 10px 65px 10px;
+    font-size: 14px;
+    color: #6b6a69;
+  }
+}
+@mixin social_media-large-mobile {
+  display: inline-flex;
+  justify-content: space-between;
+  justify-items: center;
+  width: 60%;
+  margin-left: 35px;
+}
+
+@mixin main_content-large-mobile {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 98%;
+}
+
+@mixin blue-large-mobile {
+  width: 62%;
+  margin: 10px 10px 10px 50px;
+  transform: rotate(-55deg);
+  position: absolute;
+  background: transparent;
+}
+
+@mixin pink-large-mobile {
+  width: 62%;
+  margin: 10px 10px 10px 50px;
+  transform: rotate(-35deg);
+  position: absolute;
+  background-color: transparent;
+}
+
+@mixin purple-large-mobile {
+  width: 62%;
+  margin: 10px 10px 10px 50px;
+  transform: rotate(-20deg);
+  position: absolute;
+  background-color: transparent;
+}
+
+@mixin model-large-mobile {
+  width: 62%;
+  margin: 10px 10px 10px 50px;
+  position: absolute;
+  background-color: transparent;
+}
+
+@mixin  the_email-large-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 0px 15px;
+  margin-top: -690px;
+  width: 95%;
+
+  &__join{
+    height: 45px;
+    margin-top: 10px;
+    background-color: #4977ea;
+    border-radius: 5px 5px 5px 5px;
+    border-color: transparent;
+    font-family: Leto, sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  &__join:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+  }
+}
+
+@mixin header-large-mobile{
+  width: 98%;
+}
+
+@mixin  footer-large-mobile {
+  width: 97%;
+}
+
+//tablet/small tablet screen
+
+@mixin navbar-tablet-s {
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+@mixin images-tablet-s {
+  width: 80%;
+  margin: 80px auto  100px auto;
+}
+
+@mixin hiring-tablet-s {
+  width: 20%;
+  margin-left: -100px;
+}
+
+@mixin headline-tablet-s {
+  margin: -280px auto 0px auto;
+  width: 90%;
+  
+  
+  &__title{
+    font-family: Playfair Display, serif;
+    height: 100px;
+    text-align: start;
+    width: 70%;
+    padding-left: 60px;
+  }
+
+  &__paragraph{
+    font-family: Leto, sans-serif;
+    padding: 30px 10px 0px 60px;
+    font-size: 14px;
+    color: #6b6a69;
+    width: 80%;
+    
+  }
+}
+
+@mixin  the_email-tablet-s{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+  margin-top: -800px;
+  width: 70%;
+  margin-left: 80px;
+}
+
+@mixin main_content-tablet-s{
+  height: 1100px;
+}
+
+@mixin footer-tablet-s {
+  height: 150px;
+  margin: 30px 0px 0px 80px;
 }
 
 

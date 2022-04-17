@@ -86,6 +86,81 @@
   @include help
 }
 
+//responsive large mobile screen
+
+@media only screen and (min-width: 401px) and (max-width:500px){
+
+  .header{
+    @include header-large-mobile
+  }
+  .images{
+    @include images-large-mob
+  }
+  .blue{
+  @include blue-large-mobile
+}
+
+  .pink{
+    @include pink-large-mobile
+  }
+
+  .purple{
+    @include purple-large-mobile
+  }
+
+  .face{
+    @include model-large-mobile
+  }
+  .headline{
+    @include headline-large-mob
+  }
+  .social_media{
+    @include social_media-large-mobile
+  }
+  .main_content{
+    @include main_content-large-mobile
+  }
+  .the_email{
+    @include the_email-large-mobile
+  }
+  .footer{
+    @include footer-large-mobile
+  }
+}
+
+//tablet/small tablet screen
+
+@media only screen and (min-width: 501px) and (max-width:600px){
+
+  .navbar{
+    @include navbar-tablet-s 
+  }
+
+  .hiring{
+    @include hiring-tablet-s
+  }
+
+  .images{
+    @include images-tablet-s
+  }
+
+  .main_content{
+    @include main_content-tablet-s
+  }
+
+  .headline{
+    @include headline-tablet-s
+  }
+
+  .the_email{
+    @include the_email-tablet-s
+  }
+
+  .footer{
+    @include footer-tablet-s
+  }
+}
+
 @media only screen and (max-width: 768px) {
 
   .sign_in_hosterr{
@@ -135,3 +210,4 @@
 }
 
 }
+
