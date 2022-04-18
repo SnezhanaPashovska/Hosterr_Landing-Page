@@ -88,7 +88,7 @@
 
 //responsive large mobile screen
 
-@media only screen and (min-width: 401px) and (max-width:500px){
+@media only screen and (min-width: 401px) and (max-width:500.9px){
 
   .header{
     @include header-large-mobile
@@ -130,7 +130,7 @@
 
 //tablet/small tablet screen
 
-@media only screen and (min-width: 501px) and (max-width:600px){
+@media only screen and (min-width: 501px) and (max-width:600.9px){
 
   .navbar{
     @include navbar-tablet-s 
@@ -161,7 +161,96 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width:767.9px){
+
+  .navbar{
+    @include navbar-tablet-m 
+  }
+
+  .hiring{
+    @include hiring-tablet-m
+  }
+
+  .images{
+    @include images-tablet-m
+  }
+
+  .main_content{
+    @include main_content-tablet-m
+  }
+
+  .headline{
+    @include headline-tablet-m
+  }
+
+  .the_email{
+    @include the_email-tablet-m
+  }
+
+  .footer{
+    @include footer-tablet-m
+  }
+
+  .help{
+    @include help-tablet-m
+  }
+
+}
+
+@media only screen and (max-width: 768.9px) {
+
+  .navbar{
+    @include navbar-tablet-t 
+  }
+
+  .hiring{
+    @include hiring-tablet-t
+  }
+
+  .images{
+    @include images-tablet-t
+  }
+
+  .blue{
+    @include blue-tablet
+    }
+  
+    .pink{
+      @include pink-tablet
+    }
+  
+    .purple{
+      @include purple-tablet
+    }
+  
+    .face{
+      @include model-tablet
+    }
+
+  .main_content{
+    @include main_content-tablet-t
+  }
+
+  .headline{
+    @include headline-tablet-t
+  }
+
+  .the_email{
+    @include the_email-tablet-t
+  }
+
+  #email {
+    width: 50%;
+  }
+
+  .footer{
+    @include footer-tablet-t
+  }
+
+  .help{
+    @include help-tablet-t
+  }
+
 
   .sign_in_hosterr{
     display: none;

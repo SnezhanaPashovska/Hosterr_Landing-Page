@@ -105,7 +105,8 @@
     font-family: Leto, sans-serif;
     padding: 20px 10px 0px 10px;
     font-size: 14px;
-    color: #6b6a69; }
+    color: #6b6a69;
+    width: 100%; }
 
 .the_email {
   display: flex;
@@ -186,7 +187,7 @@
       font-family: Leto, sans-serif;
       font-weight: bold; }
 
-@media only screen and (min-width: 401px) and (max-width: 500px) {
+@media only screen and (min-width: 401px) and (max-width: 500.9px) {
   .header {
     width: 98%; }
 
@@ -266,7 +267,7 @@
 
   .footer {
     width: 97%; } }
-@media only screen and (min-width: 501px) and (max-width: 600px) {
+@media only screen and (min-width: 501px) and (max-width: 600.9px) {
   .navbar {
     width: 100%;
     justify-content: space-around; }
@@ -309,7 +310,133 @@
   .footer {
     height: 150px;
     margin: 30px 0px 0px 80px; } }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 767.9px) {
+  .navbar {
+    width: 90%;
+    justify-content: space-around; }
+
+  .hiring {
+    width: 20%;
+    margin-left: -100px; }
+
+  .images {
+    width: 90%;
+    margin: 80px auto  100px auto; }
+
+  .main_content {
+    height: 1100px; }
+
+  .headline {
+    margin: -280px auto 0px auto;
+    width: 100%; }
+    .headline__title {
+      font-family: Playfair Display, serif;
+      height: 100px;
+      text-align: start;
+      width: 70%;
+      padding-left: 60px; }
+    .headline__paragraph {
+      font-family: Leto, sans-serif;
+      padding: 30px 10px 0px 60px;
+      font-size: 14px;
+      color: #6b6a69;
+      width: 80%; }
+
+  .the_email {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+    margin-top: -800px;
+    width: 70%;
+    margin-left: 50px; }
+
+  .footer {
+    height: 150px;
+    margin: 30px 0px 0px 50px; }
+
+  .help {
+    width: 35%; } }
+@media only screen and (max-width: 768.9px) {
+  .navbar {
+    width: 100%;
+    justify-content: space-around;
+    margin: 25px 0px 20px 0px; }
+
+  .hiring {
+    width: 20%;
+    margin-left: -100px; }
+
+  .images {
+    width: 50%;
+    margin: 80px auto 100px auto; }
+
+  .blue {
+    width: 50%;
+    margin: 10px auto 10px auto;
+    transform: rotate(-55deg);
+    position: absolute;
+    background: transparent; }
+
+  .pink {
+    width: 50%;
+    margin: 10px auto 10px auto;
+    transform: rotate(-35deg);
+    position: absolute;
+    background-color: transparent; }
+
+  .purple {
+    width: 50%;
+    margin: 10px auto 10px auto;
+    transform: rotate(-20deg);
+    position: absolute;
+    background-color: transparent; }
+
+  .face {
+    width: 50%;
+    margin: 10px auto 10px auto;
+    position: absolute;
+    background-color: transparent; }
+
+  .main_content {
+    height: 1100px; }
+
+  .headline {
+    margin: -350px auto 0px auto;
+    width: 80%; }
+    .headline__title {
+      font-family: Playfair Display, serif;
+      height: 100px;
+      text-align: start;
+      width: 100%;
+      font-size: 40px;
+      margin: 0px 0px 0px -60px; }
+    .headline__paragraph {
+      font-family: Leto, sans-serif;
+      padding: 30px 10px 0px 0px;
+      font-size: 14px;
+      color: #6b6a69;
+      width: 90%; }
+
+  .the_email {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -900px auto 0px auto;
+    width: 80%; }
+    .the_email__join {
+      width: 20%;
+      margin: 0px 0px 10px 10px; }
+
+  #email {
+    width: 50%; }
+
+  .footer {
+    height: 150px;
+    margin: 30px 0px 0px 0px; }
+
+  .help {
+    width: 35%; }
+
   .sign_in_hosterr {
     display: none; }
 
